@@ -1,4 +1,4 @@
-import advogado from "@/assets/advogado.jpg";
+import marculino from "@/assets/marculino.png";
 import { Check } from "lucide-react";
 
 const points = [
@@ -14,14 +14,16 @@ export function Sobre() {
       <div className="container mx-auto grid gap-12 px-6 lg:grid-cols-2 lg:items-center">
         <div className="relative">
           <div className="absolute -inset-4 rounded-3xl bg-gold-gradient opacity-20 blur-2xl" />
-          <img
-            src={advogado}
-            alt="Dr. Marculino, advogado"
-            width={900}
-            height={1100}
-            loading="lazy"
-            className="relative w-full rounded-3xl object-cover shadow-elegant"
-          />
+          <div className="relative overflow-hidden rounded-3xl border border-gold/20 shadow-elegant">
+            <img
+              src={marculino}
+              alt="Dr. Marculino, advogado"
+              width={900}
+              height={1100}
+              loading="lazy"
+              className="w-full object-cover"
+            />
+          </div>
         </div>
 
         <div>

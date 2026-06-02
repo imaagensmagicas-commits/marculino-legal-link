@@ -1,18 +1,16 @@
-import heroImg from "@/assets/hero-lawyer.jpg";
 import { WHATSAPP_URL } from "./WhatsAppFloat";
 import { ArrowRight, MessageCircle, ShieldCheck } from "lucide-react";
 
 export function Hero() {
   return (
-    <section id="top" className="relative isolate overflow-hidden bg-hero text-primary-foreground">
-      <img
-        src={heroImg}
-        alt="Escritório de advocacia Marculino"
-        width={1920}
-        height={1080}
-        className="absolute inset-0 h-full w-full object-cover opacity-30"
-      />
-      <div className="absolute inset-0 bg-gradient-to-b from-navy-deep/70 via-navy-deep/60 to-navy-deep" />
+    <section id="top" className="relative isolate overflow-hidden bg-navy-deep text-primary-foreground">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-navy/40 via-navy-deep to-navy-deep" />
+      
+      {/* Background Graphic Elements */}
+      <div className="absolute inset-0 opacity-10">
+        <div className="absolute left-[10%] top-[20%] h-64 w-64 rounded-full border border-gold/30 blur-3xl" />
+        <div className="absolute right-[5%] bottom-[15%] h-96 w-96 rounded-full border border-gold/20 blur-3xl" />
+      </div>
 
       <div className="relative container mx-auto px-6 pt-36 pb-24 md:pt-44 md:pb-32">
         <div className="max-w-3xl animate-fade-up">
