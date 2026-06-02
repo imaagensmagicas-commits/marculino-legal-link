@@ -1,13 +1,15 @@
 import { WHATSAPP_URL } from "./WhatsAppFloat";
-import { ArrowRight, MessageCircle, ShieldCheck } from "lucide-react";
+import { ArrowRight, MessageCircle, ShieldCheck, Scale, Gavel } from "lucide-react";
 
 export function Hero() {
   return (
     <section id="top" className="relative isolate overflow-hidden bg-navy-deep text-primary-foreground">
+      {/* Background Graphic Elements */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-navy/40 via-navy-deep to-navy-deep" />
       
-      {/* Background Graphic Elements */}
-      <div className="absolute inset-0 opacity-10">
+      <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-10">
+        <Scale className="absolute -left-20 top-20 h-[500px] w-[500px] text-gold/20 -rotate-12" />
+        <Gavel className="absolute -right-20 bottom-10 h-[400px] w-[400px] text-gold/20 rotate-12" />
         <div className="absolute left-[10%] top-[20%] h-64 w-64 rounded-full border border-gold/30 blur-3xl" />
         <div className="absolute right-[5%] bottom-[15%] h-96 w-96 rounded-full border border-gold/20 blur-3xl" />
       </div>
