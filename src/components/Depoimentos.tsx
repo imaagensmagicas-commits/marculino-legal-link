@@ -34,7 +34,7 @@ export function Depoimentos() {
               </div>
               <blockquote className="mt-4 text-foreground/85">"{it.q}"</blockquote>
               <figcaption className="mt-6 flex items-center gap-3 border-t border-border pt-4">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-navy font-serif text-sm font-bold text-gold">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-navy-deep font-serif text-sm font-bold text-gold ring-1 ring-gold/30">
                   {it.n.charAt(0)}
                 </div>
                 <div>

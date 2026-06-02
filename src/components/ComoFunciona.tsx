@@ -27,7 +27,7 @@ export function ComoFunciona() {
               <div className="absolute -top-3 right-5 rounded-full bg-gold-gradient px-3 py-0.5 text-xs font-bold text-navy-deep">
                 Passo {i + 1}
               </div>
-              <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-navy text-gold">
+              <div className="mb-5 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-navy-deep text-gold">
                 <s.icon className="h-6 w-6" />
               </div>
               <h3 className="font-serif text-xl text-navy-deep">{s.title}</h3>

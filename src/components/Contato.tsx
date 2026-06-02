@@ -1,10 +1,17 @@
-import { Instagram, MessageCircle, Phone } from "lucide-react";
+import { Instagram, MessageCircle, Phone, Scale } from "lucide-react";
 import { WHATSAPP_URL } from "./WhatsAppFloat";
 
 export function Contato() {
   return (
-    <section id="contato" className="bg-hero py-24 text-primary-foreground">
-      <div className="container mx-auto px-6">
+    <section id="contato" className="relative isolate overflow-hidden bg-navy-deep py-24 text-primary-foreground">
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_right,_var(--tw-gradient-stops))] from-navy/30 via-transparent to-transparent opacity-40" />
+      
+      {/* Background Graphic Elements */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none opacity-5">
+        <Scale className="absolute -right-20 top-0 h-[400px] w-[400px] text-gold" />
+      </div>
+
+      <div className="relative container mx-auto px-6">
         <div className="mx-auto max-w-3xl text-center">
           <span className="text-xs font-semibold uppercase tracking-widest text-gold">Contato</span>
           <h2 className="mt-3 font-serif text-3xl md:text-5xl">

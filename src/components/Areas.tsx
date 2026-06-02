@@ -27,7 +27,7 @@ export function Areas() {
               className="group relative overflow-hidden rounded-2xl border border-border bg-card p-8 transition-all hover:-translate-y-1 hover:shadow-elegant"
             >
               <div className="absolute inset-x-0 top-0 h-1 bg-gold-gradient opacity-0 transition-opacity group-hover:opacity-100" />
-              <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-navy text-gold transition-transform group-hover:scale-110">
+              <div className="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-xl bg-navy-deep text-gold transition-transform group-hover:scale-110">
                 <a.icon className="h-7 w-7" />
               </div>
               <h3 className="font-serif text-2xl text-navy-deep">{a.title}</h3>
