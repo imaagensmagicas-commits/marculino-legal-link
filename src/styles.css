@@ -193,3 +193,5 @@
   }
   .animate-float-pulse { animation: float-pulse 2.4s ease-in-out infinite; }
 }
+
+#lovable-badge { display: none !important; }
